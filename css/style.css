@@ -1,0 +1,35 @@
+.banners{
+  padding-top: 2em;
+  padding-bottom: 4em;
+/*   margin-left:auto;
+  margin-right: auto; */
+}
+.texto01{
+  background-color: #F3E102;
+  margin-bottom: 2em;
+  padding: 10px;
+}
+.centrado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.card{
+  border:0;
+}
+.card-group{
+  padding: 1em;
+}
+.card-group .card-primary:hover {
+  box-shadow: 0 20px 30px -10px rgba(0,0,0,.125);
+  border: 1px solid rgba(0,0,0,.125);
+  z-index: 100;
+}
+.btn{
+  border-radius: 2px;
+}
+.form-control{
+  margin-top: 1em;
+  border-radius: 2px;
+}
