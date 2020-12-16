@@ -1,35 +1,51 @@
-.banners{
+.banners {
   padding-top: 2em;
   padding-bottom: 4em;
-/*   margin-left:auto;
-  margin-right: auto; */
 }
-.texto01{
-  background-color: #F3E102;
-  margin-bottom: 2em;
-  padding: 10px;
+.texto01 {
+  background-color: #f3e102;
 }
 .centrado {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
-.card{
-  border:0;
+.card {
+  border: 0;
 }
-.card-group{
+.card-group {
   padding: 1em;
 }
 .card-group .card-primary:hover {
-  box-shadow: 0 20px 30px -10px rgba(0,0,0,.125);
-  border: 1px solid rgba(0,0,0,.125);
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   z-index: 100;
 }
-.btn{
+.btn {
   border-radius: 2px;
 }
-.form-control{
+.form-control {
   margin-top: 1em;
   border-radius: 2px;
+}
+.hide {
+  visibility: hidden;
+}
+.hoverHideFocus:hover .hide {
+  visibility: visible;
+}
+.iva {
+  font-size: small;
+  text-align: center;
+  color: grey;
+}
+.price {
+  text-align: center;
+}
+.price strong {
+  font-size: 1.6em;
+}
+.form-control:focus {
+  border-color: #f3e102;
+  box-shadow: inset 0 1px 1px #f3e302b3, 0 0 8px #f3e30241;
 }
