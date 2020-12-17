@@ -58,3 +58,10 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+p{
+  font-weight: 220;
+}
+.card-title{
+  font-size: 12px;
+  font-weight:400;
+}
