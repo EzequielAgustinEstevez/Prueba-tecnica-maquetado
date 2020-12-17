@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Maquetador</title>
     <link rel="icon" type="image/png" href="img/favicon.png" />
+    <!-- Slider Stick -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -24,14 +27,24 @@
             src="img/banners-14.jpg"
             alt="Cielos y Revestimientos"
             class="centrado"
-            width= "90%"
+            width="90%"
           />
         </div>
         <div class="col-md-12 col-lg-4 mb-3">
-          <img src="img/banners-13.jpg" alt="Zocalos" class="centrado" width= "90%" />
+          <img
+            src="img/banners-13.jpg"
+            alt="Zocalos"
+            class="centrado"
+            width="90%"
+          />
         </div>
         <div class="col-md-12 col-lg-4 mb-3">
-          <img src="img/banners-12.jpg" alt="Decks" class="centrado" width= "90%" />
+          <img
+            src="img/banners-12.jpg"
+            alt="Decks"
+            class="centrado"
+            width="90%"
+          />
         </div>
       </div>
     </div>
@@ -60,7 +73,91 @@
 
         <!-- Productos -->
         <div class="col-lg-9 col-md-12">
-          <div class="card-group">
+          <div class="card-group responsive">
+            <div class="hoverHideFocus card card-primary col-lg-2"> 
+              <div class="cointainer">
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <img
+                      src="img/destacado.png"
+                      alt="Destacado"
+                      class="centrado card-img-overlay"
+                      width="50%"
+                    />
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="img/producto.jpg"
+                    alt="Imagen producto"
+                  />
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-title text-center">
+                  PERFIL CONSTRUCCIÓN SECO MONTANTE 34 GALVANIZADO 0.52.MM X
+                  34MM 2600MM
+                </p>
+                <p class="price"><strong>$0,00</strong> + IVA</p>
+                <p class="iva">$0,00 (IVA included)</p>
+                <div class="container hide">
+                  <div class="row justify-content-center">
+                    <div class="col">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="cantidad"
+                        placeholder="Cant."
+                      />
+                    </div>
+                    <button type="button" class="btn btn-danger mt-4">
+                      AGREGAR AL PRESUPUESTO
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hoverHideFocus card card-primary col-lg-2">
+              <div class="cointainer">
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <img
+                      src="img/destacado.png"
+                      alt="Destacado"
+                      class="centrado card-img-overlay"
+                      width="50%"
+                    />
+                  </div>
+                  <img
+                    class="card-img-top"
+                    src="img/producto.jpg"
+                    alt="Imagen producto"
+                  />
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-title text-center">
+                  PERFIL CONSTRUCCIÓN SECO MONTANTE 34 GALVANIZADO 0.52.MM X
+                  34MM 2600MM
+                </p>
+                <p class="price"><strong>$0,00</strong> + IVA</p>
+                <p class="iva">$0,00 (IVA included)</p>
+                <div class="container hide">
+                  <div class="row justify-content-center">
+                    <div class="col">
+                      <input
+                        type="number"
+                        class="form-control"
+                        id="cantidad"
+                        placeholder="Cant."
+                      />
+                    </div>
+                    <button type="button" class="btn btn-danger mt-4">
+                      AGREGAR AL PRESUPUESTO
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="hoverHideFocus card card-primary col-lg-2">
               <div class="cointainer">
                 <div class="row justify-content-center">
@@ -235,11 +332,15 @@
       </div>
     </div>
     <!-- Contenedor -->
-
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
     ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
   </body>
 </html>
